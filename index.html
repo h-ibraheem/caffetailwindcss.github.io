@@ -9,24 +9,25 @@
     <link rel="stylesheet" href="./src/fontawesome/css/all.min.css">
 
     <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="./src/css/normalize.css">
     <link rel="stylesheet" href="./src/css/style.css">
 
 
 </head>
 
-<body class="bg-neutral-300 text-mainBrown">
-    
-    <header class="container flex justify-between items-center mx-auto ">
+<body class="bg-neutral-100 text-mainBrown">
+
+    <header class="container flex justify-between items-center mx-auto absolute">
         <div class="container flex justify-between items-center mx-auto ">
             <img src="./src/img/cafeLogo.png" class="w-20" alt="cafeLogo">
-            <nav class="hidden space-x-6 capitalize font-ubuntu font-bold text-l md:block">
+            <nav class="hidden space-x-6 capitalize font-ubuntu font-bold text-l md:block text-white">
                 <a href="#">home</a>
                 <a href="#">about</a>
                 <a href="#">menu</a>
                 <a href="#">join us</a>
                 <a href="#">franchise</a>
             </nav>
-            <div class="hidden  space-x-5 md:block">
+            <div class="hidden  space-x-5 md:block text-white">
                 <i class="text-lg fa-solid fa-earth-africa"></i>
                 <i class="text-lg fa-solid fa-user"></i>
             </div>
@@ -37,58 +38,261 @@
     </header>
 
     <!-- start landing  -->
-    <section class="landing ">
-        <div class="container  flex flex-col-reverse md:flex-row items-center  mx-auto  md:space-y-0 m-1">
+    <section class="landing h-lvh">
+        <div class="container  flex flex-col-reverse md:flex-row items-center  mx-auto  md:space-y-0">
 
-        <div class="content ">
-            <div class="text">
-                <h2 class="capitalize font-ubuntu font-bold text-4xl my-7 text-center md:text-left">main title</h2>
-                <p
-                    class="md:w-3/4 text-brownLight tracking-wider leading-relaxed font-bold text-6xl text-center md:text-left">
-                    Start your day with
-                    a black Coffee</p>
+            <div class="content absolute top-1/4">
+                <div class="text">
+                    <h2 class="uppercase text-white font-ubuntu font-bold text-l my-7 text-center md:text-left">Now you
+                        can feel the Energy</h2>
+                    <p
+                        class="md:w-3/4 text-4xl mx-2 text-brownLight tracking-wider leading-relaxed font-bold md:text-6xl text-center md:text-left">
+                        Start your day with
+                        a black Coffee</p>
+                </div>
+                <div class="btns py-14 space-x-5 text-center md:text-center">
+
+                    <a class="px-14 py-4 text-white bg-brownLight font-bold rounded-full capitalize hover:text-white hover:bg-mainBrown  "
+                        href="#">menu</a>
+                </div>
+                <div class="social text-center space-x-7 md:text-center text-white">
+                    <a href="#"><i class="text-2xl fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="text-2xl fa-brands fa-snapchat"></i></a>
+                    <a href="#"><i class="text-2xl fa-brands fa-tiktok"></i></a>
+                </div>
             </div>
-            <div class="btns py-14 space-x-5 text-center md:text-left">
-               
+
+    </section>
+
+
+
+
+    <!-- icons  -->
+    <section class="h-24 bg-brownLight/35 p-6 text-mainBrown/75">
+        <div class="container mx-auto text-center flex items-center justify-center md:space-x-20  space-x-9">
+            <div class="box ">
+                <img src="./src/img/hot-coffee-cup-svgrepo-com.svg" class="w-10 " />
+                <p class="font-ubuntu font-semibold capitalize text-xs mt-2">hot</p>
+            </div>
+            <div class="box">
+                <img src="./src/img/coffe-to-go-svgrepo-com.svg" class="w-10 " />
+                <p class="font-ubuntu font-semibold capitalize text-xs mt-2">cold</p>
+            </div>
+            <div class="box">
+                <img src="./src/img/coffee-pot-svgrepo-com.svg" class="w-10 " />
+                <p class="font-ubuntu font-semibold capitalize text-xs mt-2 ">drip</p>
+            </div>
+            <div class="box">
+                <img src="./src/img/dessert-svgrepo-com.svg" class="w-10" alt="">
+                <p class="font-ubuntu font-semibold capitalize text-xs mt-2 ">Dessert</p>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- serve -->
+    <section class="serve py-24 ">
+        <div class="container mx-auto">
+
+            <div class="title text-center">
+                <h2 class="font-ubuntu font-bold md:text-4xl text-2xl mb-6 w-3/4 text-center mx-auto capitalize">What
+                    kind of
+                    Coffee we
+                    serve for you</h2>
+                <p class="font-ubuntu ">Who are in extremely love with eco friendly system.</p>
+            </div>
+            <!-- boxes  -->
+            <div class="boxes grid md:grid-cols-3 md:mt-20 mt-10 ">
+
+                <div class="box p-7 m-4 shadow-xl shadow-brownLight/25 rounded-2xl">
+                    <div class="title flex justify-between items-center py-4">
+                        <h2 class="font-ubuntu capitalize font-bold text-lg ">
+                            espresso
+                        </h2>
+                        <h2 class="relative font-bold text-brownLight text-xl">14
+                            <span class="absolute -top-3 uppercase text-sm">rs</span>
+                        </h2>
+                    </div>
+                    <p class="capitalize font-normal text-sm font-ubuntu leading-relaxed text-brownLight/90">
+                        Usage of the Internet is becoming more common due to rapid advance.
+                    </p>
+                </div>
+
+
+                <div class="box p-7 m-4 shadow-xl shadow-brownLight/25 rounded-2xl">
+                    <div class="title flex justify-between items-center py-4">
+                        <h2 class="font-ubuntu capitalize font-bold text-lg ">
+                            hot coffee
+                        </h2>
+                        <h2 class="relative font-bold text-brownLight text-xl">08
+                            <span class="absolute -top-3 uppercase text-sm">rs</span>
+                        </h2>
+                    </div>
+                    <p class="capitalize font-normal text-sm font-ubuntu leading-relaxed text-brownLight/90">
+                        Usage of the Internet is becoming more common due to rapid advance.
+                    </p>
+                </div>
+
+
+                <div class="box p-7 m-4 shadow-xl shadow-brownLight/25 rounded-2xl">
+                    <div class="title flex justify-between items-center py-4">
+                        <h2 class="font-ubuntu capitalize font-bold text-lg ">
+                            cold coffee
+                        </h2>
+                        <h2 class="relative font-bold text-brownLight text-xl">22
+                            <span class="absolute -top-3 uppercase text-sm">rs</span>
+                        </h2>
+                    </div>
+                    <p class="capitalize font-normal text-sm font-ubuntu leading-relaxed text-brownLight/90">
+                        Usage of the Internet is becoming more common due to rapid advance.
+                    </p>
+                </div>
+
+
+                <div class="box p-7 m-4 shadow-xl shadow-brownLight/25 rounded-2xl">
+                    <div class="title flex justify-between items-center py-4">
+                        <h2 class="font-ubuntu capitalize font-bold text-lg ">
+                            hot drinks
+                        </h2>
+                        <h2 class="relative font-bold text-brownLight text-xl">07
+                            <span class="absolute -top-3 uppercase text-sm">rs</span>
+                        </h2>
+                    </div>
+                    <p class="capitalize font-normal text-sm font-ubuntu leading-relaxed text-brownLight/90">
+                        Usage of the Internet is becoming more common due to rapid advance.
+                    </p>
+                </div>
+
+
+                <div class="box p-7 m-4 shadow-xl shadow-brownLight/25 rounded-2xl">
+                    <div class="title flex justify-between items-center py-4">
+                        <h2 class="font-ubuntu capitalize font-bold text-lg ">
+                            cold drinks
+                        </h2>
+                        <h2 class="relative font-bold text-brownLight text-xl">14
+                            <span class="absolute -top-3 uppercase text-sm">rs</span>
+                        </h2>
+                    </div>
+                    <p class="capitalize font-normal text-sm font-ubuntu leading-relaxed text-brownLight/90">
+                        Usage of the Internet is becoming more common due to rapid advance.
+                    </p>
+                </div>
+
+
+                <div class="box p-7 m-4 shadow-xl shadow-brownLight/25 rounded-2xl">
+                    <div class="title flex justify-between items-center py-4">
+                        <h2 class="font-ubuntu capitalize font-bold text-lg ">
+                            traditional tea & coffee
+                        </h2>
+                        <h2 class="relative font-bold text-brownLight text-xl">05
+                            <span class="absolute -top-3 uppercase text-sm">rs</span>
+                        </h2>
+                    </div>
+                    <p class="capitalize font-normal text-sm font-ubuntu leading-relaxed text-brownLight/90">
+                        Usage of the Internet is becoming more common due to rapid advance.
+                    </p>
+                </div>
+
+
+                <div class="box p-7 m-4 shadow-xl shadow-brownLight/25 rounded-2xl">
+                    <div class="title flex justify-between items-center py-4">
+                        <h2 class="font-ubuntu capitalize font-bold text-lg ">
+                            desserts
+                        </h2>
+                        <h2 class="relative font-bold text-brownLight text-xl">11
+                            <span class="absolute -top-3 uppercase text-sm">rs</span>
+                        </h2>
+                    </div>
+                    <p class="capitalize font-normal text-sm font-ubuntu leading-relaxed text-brownLight/90">
+                        Usage of the Internet is becoming more common due to rapid advance.
+                    </p>
+                </div>
+
+
+                <div class="box p-7 m-4 shadow-xl shadow-brownLight/25 rounded-2xl">
+                    <div class="title flex justify-between items-center py-4">
+                        <h2 class="font-ubuntu capitalize font-bold text-lg ">
+                            bakery
+                        </h2>
+                        <h2 class="relative font-bold text-brownLight text-xl">09
+                            <span class="absolute -top-3 uppercase text-sm">rs</span>
+                        </h2>
+                    </div>
+                    <p class="capitalize font-normal text-sm font-ubuntu leading-relaxed text-brownLight/90">
+                        Usage of the Internet is becoming more common due to rapid advance.
+                    </p>
+                </div>
+
+
+                <div class="box p-7 m-4 shadow-xl shadow-brownLight/25 rounded-2xl">
+                    <div class="title flex justify-between items-center py-4">
+                        <h2 class="font-ubuntu capitalize font-bold text-lg ">
+                            breakfast
+                        </h2>
+                        <h2 class="relative font-bold text-brownLight text-xl">24
+                            <span class="absolute -top-3 uppercase text-sm">rs</span>
+                        </h2>
+                    </div>
+                    <p class="capitalize font-normal text-sm font-ubuntu leading-relaxed text-brownLight/90">
+                        Usage of the Internet is becoming more common due to rapid advance.
+                    </p>
+                </div>
+
+
+            </div>
+
+
+            <div class="btn py-14 space-x-5 text-center md:text-right ">
+
                 <a class="px-14 py-4 text-white bg-brownLight font-bold rounded-full capitalize hover:text-white hover:bg-mainBrown  "
                     href="#">menu</a>
             </div>
-            <div class="social text-center space-x-7 md:text-left">
-                <a href="#"><i class="text-2xl fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="text-2xl fa-brands fa-snapchat"></i></a>
-                <a href="#"><i class="text-2xl fa-brands fa-tiktok"></i></a>
-            </div>
+
+
         </div>
-        <div class="image">
-            <img src="./src/img/header-1.png" class=" flex content-center">
-        </div></div>
     </section>
+
+    <!-- gallery -->
+    <div class="gallery py-24 bg-brownLight/20">
+        <div class="container mx-auto">
+            <div class="title text-center">
+                <h2 class="font-ubuntu font-bold md:text-4xl text-2xl mb-6 w-3/4 text-center mx-auto capitalize">What
+                    kind of
+                    Coffee we
+                    serve for you</h2>
+                <p class="font-ubuntu ">Who are in extremely love with eco friendly system.</p>
+            </div>
+
+            <div class="imgs pt-20">
+                <div class="img-box grid grid-cols-1 md:grid md:grid-cols-3  ">
+                    <div class="box  grid-cols-1 p-2">
+                        <img src="./src/img/gallery-2.jpg" class="p-2" alt="img">
+                        <img src="./src/img/gallery-5.jpg" class="p-2" alt="img">
+                    </div>
+
+                    <div class="upper-img grid md:grid p-2 md:col-span-2 md:gap-4">
+                        <img src="./src/img/header-2.jpg" class="md:col-span-2 p-2" alt="img">
+                        <img src="./src/img/gallery-3.png" class="p-2" alt="img">
+                        <img src="./src/img/gallery-4.png" class="p-2" alt="img">
+                      
+                    </div>
+
+                </div>
+            </div>
+
+                <div class="btn py-14 space-x-5 text-center md:text-right ">
+                
+                    <a class="px-14 py-4 text-white bg-brownLight font-bold rounded-full capitalize hover:text-white hover:bg-mainBrown  "
+                        href="#">find us</a>
+                </div>
+
+        </div>
+
+    </div>
 
     
-
-
-    <!-- about  -->
-    <section class="h-24 bg-brownLight/35 mt-10 p-6">
-        <div class="container mx-auto text-center flex items-center justify-center md:space-x-20  space-x-9">
-            <div class="box">
-                <i class="fa-solid fa-mug-hot text-3xl"></i>
-                <p class="font-ubuntu font-semibold capitalize text-sm">hot coffee</p>
-            </div>
-            <div class="box">
-                <i class="fa-solid fa-mug-hot text-3xl"></i>
-                <p class="font-ubuntu font-semibold capitalize text-sm">hot coffee</p>
-            </div>
-            <div class="box">
-                <i class="fa-solid fa-mug-hot text-3xl"></i>
-                <p class="font-ubuntu font-semibold capitalize text-sm">hot coffee</p>
-            </div>
-            <div class="box">
-                <i class="fa-solid fa-mug-hot text-3xl"></i>
-                <p class="font-ubuntu font-semibold capitalize text-sm">hot coffee</p>
-            </div>
-        
-        </div>
-    </section>
 
     <div class="pt-80">
         <h1 class="font-ubuntu font-bold text-4xl">Main Title in Ubuntu Bold</h1>
