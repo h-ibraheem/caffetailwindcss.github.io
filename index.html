@@ -85,12 +85,12 @@
     <!-- story -->
     <div class="story py-24 relative h-96" id="story">
         <div class="overlay z-10"></div>
-        <div class="z-20 absolute">
-            <div class="title text-center mx-auto">
-                <h2 class="font-ubuntu font-bold md:text-4xl text-2xl mb-6 w-3/4 text-center mx-auto capitalize">our
+        <div class="z-20 absolute w-full">
+            <div class="title text-center ">
+                <h2 class="font-ubuntu font-bold md:text-4xl text-2xl mb-6 capitalize">our
                     story
                 </h2>
-                <p class="font-ubuntu text-sm md:text-xl md:w-3/4 mx-auto">Nestled in the heart of the city, our café is
+                <p class="font-ubuntu text-sm md:text-xl md:max-w-3xl mx-auto">Nestled in the heart of the city, our café is
                     a sanctuary where community and flavor
                     come together. We pride ousrelves
                     on serving expertly brewed coffee, artisanal pastries, and a warm, inviting atmosphere. It's a place
@@ -113,24 +113,36 @@
                 where convesrations
                 flow as freely as the coffee, and every visit feels like a comforting escape.</p>
         </div>
-        <div class="container mx-auto grid md:grid-cols-3 pt-16 gap-4">
+        <div class="container mx-auto grid md:grid-cols-3 pt-16 gap-6 px-5">
             <div class="box bg-brownLight rounded-2xl">
-                <img src="./src/img/hot-1.jpg" alt="imge" class="rounded-2xl md:w-full flex items-center  w-full md:min-h-96">
+                <img src="./src/img/hot-1.jpeg" alt="imge"
+                    class="rounded-2xl  flex items-center w-full mx-auto md:max-w-max p-2">
                 <h2 class="font-ubuntu text-2xl py-5 text-center uppercase font-bold">flat white</h2>
-                <p class="capitalize text-center text-white w-3/4 flex justify-center items-center mx-auto pb-5">a
+                <p
+                    class="capitalize text-center text-white w-3/4 flex justify-center items-center mx-auto pb-5 leading-6">
+                    a
                     coffee drink consisting of espresso and steamed milk</p>
             </div>
+
             <div class="box bg-brownLight rounded-2xl">
-                <img src="./src/img/hot-2.jpg" alt="imge" class="rounded-2xl md:w-full flex items-center  w-full max-h-96">
-                <h2 class="font-ubuntu text-2xl py-5 text-center uppercase font-bold">flat white</h2>
-                <p class="capitalize text-center text-white w-3/4 flex justify-center items-center mx-auto pb-5">a
-                    coffee drink consisting of espresso and steamed milk</p>
-            </div>
-            <div class="box bg-brownLight rounded-2xl">
-                <img src="./src/img/hot-3.jpg" alt="imge" class="rounded-2xl md:w-full flex items-center  w-full max-h-96">
+                <img src="./src/img/hot-3.jpg" alt="imge"
+                    class="rounded-2xl  flex items-center w-full mx-auto md:max-w-max p-2">
                 <h2 class="font-ubuntu text-2xl py-5 text-center uppercase font-bold">Cortado</h2>
-                <p class="capitalize text-center text-white w-3/4 flex justify-center items-center mx-auto pb-5">a Spanish beverage consisting of espresso mixed with a roughly equal amount of warm milk to reduce the acidity,</p>
+                <p
+                    class="capitalize text-center text-white w-3/4 flex justify-center items-center mx-auto pb-5 leading-6">
+                    a
+                    Spanish beverage consisting of espresso mixed with a roughly equal amount of warm milk to reduce the
+                    acidity,</p>
             </div>
+            <div class="box bg-brownLight rounded-2xl">
+                <img src="./src/img/hot-2.jpg" alt="imge"
+                    class="rounded-2xl  flex items-center w-full mx-auto md:max-w-max p-2">
+                <h2 class="font-ubuntu text-2xl py-5 text-center uppercase font-bold">Turkish coffee</h2>
+                <p
+                    class="capitalize text-center text-white w-3/4 flex justify-center items-center mx-auto pb-5 leading-6">
+                    a style of coffee prepared in a cezve using very finely ground coffee beans without filtering</p>
+            </div>
+
 
         </div>
 
@@ -305,13 +317,7 @@
 
     <!-- gallery -->
     <div class="gallery py-24 bg-brownLight/20 relative" id="gallery">
-        <div class="cookie absolute bottom-0 flex justify-between w-full opacity-80 px-5 pb-5">
-            <img src="./src/img/cookie-svgrepo-com.svg" alt="cookies" class="w-12 md:w-24">
-            <img src="./src/img/cookie-svgrepo-com.svg" alt="cookies" class="w-12 md:w-24">
-            <img src="./src/img/cookie-svgrepo-com.svg" alt="cookies" class="w-12 md:w-24">
-            <img src="./src/img/cookie-svgrepo-com.svg" alt="cookies" class="w-12 md:w-24">
-            <img src="./src/img/cookie-svgrepo-com.svg" alt="cookies" class="w-12 md:w-24">
-        </div>
+       
         <div class="container mx-auto">
             <div class="title text-center">
                 <h2 class="font-ubuntu font-bold md:text-4xl text-2xl mb-6 w-3/4 text-center mx-auto capitalize">What
@@ -323,13 +329,13 @@
 
             <div class="imgs pt-20">
                 <div class="img-box grid grid-cols-1 md:grid md:grid-cols-3  ">
-                    <div class="box  grid-cols-1 p-2">
-                        <img src="./src/img/gallery-2.jpg" class="p-2" alt="img">
+                    <div class="box  grid-cols-1 p-2 relative">
+                        <img src="./src/img/gallery-2.jpg" class="p-2 transform rotate-4" alt="img">
                         <img src="./src/img/gallery-5.jpg" class="p-2" alt="img">
                     </div>
 
                     <div class="upper-img grid md:grid p-2 md:col-span-2 md:gap-4">
-                        <img src="./src/img/header-2.jpg" class="md:col-span-2 p-2" alt="img">
+                        <img src="./src/img/header-2.jpg" class="md:col-span-2 p-2 flex mx-auto" alt="img">
                         <img src="./src/img/gallery-3.png" class="p-2" alt="img">
                         <img src="./src/img/gallery-4.png" class="p-2" alt="img">
 
@@ -346,9 +352,17 @@
 
         </div>
 
+        <div class="cookie absolute bottom-0 flex justify-between w-full opacity-80 px-5 pb-5">
+            <img src="./src/img/cookie-svgrepo-com.svg" alt="cookies" class="w-12 md:w-24">
+            <img src="./src/img/cookie-svgrepo-com.svg" alt="cookies" class="w-12 md:w-24">
+            <img src="./src/img/cookie-svgrepo-com.svg" alt="cookies" class="w-12 md:w-24">
+            <img src="./src/img/cookie-svgrepo-com.svg" alt="cookies" class="w-12 md:w-24">
+            <img src="./src/img/cookie-svgrepo-com.svg" alt="cookies" class="w-12 md:w-24">
+        </div>
+
     </div>
 
-    <footer class="bg-yellow-950 pt-12">
+    <footer class="bg-yellow-950 pt-12 px-5">
         <div class="container mx-auto grid md:grid-cols-3">
             <div class="logo">
                 <img src="./src/img/logoWight.svg" class="flex mx-auto w-32 py-14" alt="logo">
