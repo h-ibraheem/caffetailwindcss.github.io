@@ -21,11 +21,11 @@
         <div class="container flex justify-between items-center mx-auto ">
             <img src="./src/img/cafeLogo.png" class="w-20" alt="cafeLogo">
             <nav class="hidden space-x-6 capitalize font-ubuntu font-bold text-l md:block text-white">
-                <a href="#">home</a>
-                <a href="#">about</a>
-                <a href="#">menu</a>
-                <a href="#">join us</a>
-                <a href="#">franchise</a>
+                
+                <a href="#story">story</a>
+                <a href="#menu">menu</a>
+                <a href="#gallery">gallery</a>
+                <a href="#">location</a>
             </nav>
             <div class="hidden  space-x-5 md:block text-white">
                 <i class="text-lg fa-solid fa-earth-africa"></i>
@@ -34,7 +34,7 @@
 
 
         </div>
-        <i class="block md:hidden text-2xl text-white mr-7 fa-solid fa-basr "></i>
+        <i class="block md:hidden text-2xl text-white mr-7 fa-solid fa-bars "></i>
     </header>
 
     <!-- start landing  -->
@@ -88,7 +88,7 @@
     </section>
 
     <!-- story -->
-    <div class="story py-24 relative h-96">
+    <div class="story py-24 relative h-96" id="story">
         <div class="overlay z-10"></div>
         <div class="container mx-auto z-20 absolute ">
             <div class="title text-center">
@@ -106,7 +106,7 @@
     </div>
 
     <!-- menu category -->
-    <section class="category  relative">
+    <section class="category  relative" id="menu">
         <div class="image absolute opacity-70 w-full h-full">
             <img src="./src/img/bg-coffee beans.png" class="absolute left-0 bottom-0" alt="">
             <img src="./src/img/bg-coffee beans.png" class="absolute right-0 bottom-0 transform scale-x-[-1]" alt="">
@@ -273,7 +273,7 @@
     </section>
 
     <!-- gallery -->
-    <div class="gallery py-24 bg-brownLight/20 relative">
+    <div class="gallery py-24 bg-brownLight/20 relative" id="gallery">
         <div class="cookie absolute bottom-0 flex justify-between w-full opacity-80 px-5 pb-5">
             <img src="./src/img/cookie-svgrepo-com.svg" alt="cookies" class="w-12 md:w-24">
             <img src="./src/img/cookie-svgrepo-com.svg" alt="cookies" class="w-12 md:w-24">
@@ -333,17 +333,17 @@
                 <a href="#" class="block py-5 border-b hover:text-xl hover:mx-auto pr-2">
                     <i class="mx-4 fa-solid fa-chevron-right"></i> home
                 </a>
-                <a href="#" class="block py-5 border-b hover:text-xl hover:mx-auto pr-2">
-                    <i class="mx-4 fa-solid fa-chevron-right"></i> about
+                <a href="#story" class="block py-5 border-b hover:text-xl hover:mx-auto pr-2">
+                    <i class="mx-4 fa-solid fa-chevron-right"></i> story
                 </a>
-                <a href="#" class="block py-5 border-b hover:text-xl hover:mx-auto pr-2">
+                <a href="#menu" class="block py-5 border-b hover:text-xl hover:mx-auto pr-2">
                     <i class="mx-4 fa-solid fa-chevron-right"></i> menu
                 </a>
-                <a href="#" class="block py-5 border-b hover:text-xl hover:mx-auto pr-2">
-                    <i class="mx-4 fa-solid fa-chevron-right"></i> join us
+                <a href="#gallery" class="block py-5 border-b hover:text-xl hover:mx-auto pr-2">
+                    <i class="mx-4 fa-solid fa-chevron-right"></i> gallery
                 </a>
                 <a href="#" class="block py-5 border-b hover:text-xl  hover:mx-auto pr-2">
-                    <i class="mx-4 fa-solid fa-chevron-right"></i> franchise
+                    <i class="mx-4 fa-solid fa-chevron-right"></i> location
                 </a>
             </div>
 
@@ -368,8 +368,8 @@
                 </ul>
             </div>
         </div>
-        <h2 class="text-white mt-10 text-center capitalize">
-            create with love  <span class="font-bold text-blue-400"><a href="www.dragon-sd.com">Mr.Dragon</a> &copy;</span> all right reserved
+        <h2 class="text-white mt-10 text-center capitalize pb-4">
+            create with love  <span class="font-bold text-blue-400"><a href="https://www.dragon-sd.com" target="_blank">Mr.Dragon</a> &copy;</span> all right reserved
         </h2>
     </footer>
 
